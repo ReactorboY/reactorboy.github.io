@@ -3,21 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.2.0",
+    "cra-template": "1.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.1.2",
-    "react-router-hash-link": "^1.2.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.4.1"
   },
-  "homepage": "https://reactorboy.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
