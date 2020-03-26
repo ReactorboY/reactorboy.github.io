@@ -11,6 +11,7 @@
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "3.4.1"
   },
+  "homepage": "https://reactorboy.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
