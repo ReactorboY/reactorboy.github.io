@@ -1,13 +1,41 @@
 const data = [
     {
+        text: "Google Play Store App Analyzer (in progress)",
+        date: "March 2020",
+        category: {
+            tag: "Data Science",
+            color: "#018f69"
+        }
+    },
+    {
+        text: "Web Scrapper Using Selenium, Python",
+        date: "March 2020",
+        category: {
+            tag: "Python Scrapping",
+            color: "#014564"
+        }
+    },
+    {
         text: "Journey Visualizer (in progress), Visualize your journey & evaluate your goal chances.",
         date: "March 2020",
         category: {
             tag: "Machine learning",
             color: "#018fff"
         }
-    }
-    ,{
+    },
+    {
+        text: "Achieved Two star in Java Programming",
+        date: "March 2020",
+        category: {
+            tag: "Hackerrank",
+            color: "#018fff"
+        },
+        link: {
+            url: "https://www.hackerrank.com/reactorboy",
+            text: "Hackerrank Profile"
+        }
+    },
+    {
         text:"Todo list App, A minimalist app to manage your day to day list",
         date:"March 2020",
         category: {
@@ -21,6 +49,18 @@ const data = [
         category: {
             tag: "Blog",
             color: "#014564"
+        }
+    },
+    {
+        text: "Achieved Two Star in problem solving",
+        date: "Feb 2020",
+        category: {
+            tag: "Hackerrank",
+            color: "#018f69"
+        },
+        link: {
+            url: "https://www.hackerrank.com/reactorboy",
+            text: "Profile"
         }
     },
     {
@@ -84,15 +124,11 @@ const data = [
         }
     },
     {
-        text: "Blog about reactjs, js, expressjs",
+        text: "Programming Started",
         date: "March 2019",
         category: {
             tag: "blog",
             color: "#018f69"
-        },
-        link: {
-            url: "https://nextreactjs.com",
-            text: "blog"
         }
     }
 ]
