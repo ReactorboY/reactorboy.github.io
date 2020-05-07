@@ -13,7 +13,7 @@ class Home extends Component {
                 <Header title="Talk is cheap, Show me the Code"/>
                 <About title="Mohd Hussain a.k.a Reactorboy" 
                         subtitle="I am passionate about building excellent software that improves the lives of those around me." 
-                        skills={['node','react','android','mongo', 'nextjs','aws']} 
+                        skills={['node','react','android','api', 'nextjs','gcp','mongodb']} 
                 />
                 <Portfolio />
                 <Footer />

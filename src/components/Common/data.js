@@ -1,9 +1,9 @@
 const data = [
     {
-        text: "Google Play Store App Analyzer (in progress)",
-        date: "March 2020",
+        text: "Minecraft Server using google cloud to play legendary minecraft game",
+        date: "April 2020",
         category: {
-            tag: "Data Science",
+            tag: "Google Cloud",
             color: "#018f69"
         }
     },
