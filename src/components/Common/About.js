@@ -9,7 +9,7 @@ class About extends Component {
                 <div className="row">
                     <div className="col-lg-10 mx-auto">
                     <h2 className="mb-4">{this.props.title}</h2>
-                    <div className="card py-5" style={{backgroundColor:"inherit",border:"none"}}>
+                    <div className="card py-2" style={{backgroundColor:"inherit",border:"none"}}>
                         <p className="lead mb-2"><b>{this.props.subtitle}</b></p>
                     </div>
                     <h3 className="mb-4 mt-4">Technologies I work with</h3>
