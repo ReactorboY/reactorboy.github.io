@@ -1,5 +1,37 @@
 const data = [
     {
+        text: "Hosted Wordpress blog using Google Cloud SQL, Virtual instance as a implementation project of Google Cloud, used IAM policy, and monitor resource for 1 month",
+        date: "May 2020",
+        category: {
+            tag: "Wordpress sql google cloud",
+            color: "#122323"
+        }
+    }, 
+    {
+        text: "Google Cloud Core Infrastructure: Virtual Private Cloud, Subnet, Cloud Router",
+        date: "May 2020",
+        category: {
+            tag: "GCloud Certification",
+            color: "#FF4500"
+        }
+    }, 
+    {
+        text: "Google Cloud Core Infrastructure: IAM Policy and Resource Management, Monitoring, Debugging",
+        date: "May 2020",
+        category: {
+            tag: "GCloud Certification",
+            color: "#018fff"
+        }
+    }, 
+    {
+        text:"Google Cloud Core Infrastructure: Foudational Certfications",
+        date:"May 2020",
+        category : {
+            tag:"GCloud Certification",
+            color: "#014564"
+        }
+    },
+    {
         text: "Minecraft Server using google cloud to play legendary minecraft game",
         date: "April 2020",
         category: {
@@ -13,14 +45,6 @@ const data = [
         category: {
             tag: "Python Scrapping",
             color: "#014564"
-        }
-    },
-    {
-        text: "Journey Visualizer (in progress), Visualize your journey & evaluate your goal chances.",
-        date: "March 2020",
-        category: {
-            tag: "Machine learning",
-            color: "#018fff"
         }
     },
     {
@@ -41,14 +65,10 @@ const data = [
         category: {
             tag:"Android Studio",
             color: "#018f69"
-        }
-    },
-    {
-        text: "NextReactJs (in progress)",
-        date: "Feb 2020",
-        category: {
-            tag: "Blog",
-            color: "#014564"
+        },
+        link :{
+            url: "https://play.google.com/store/apps/details?id=com.organicpy.todoit",
+            text:"Play Store"
         }
     },
     {
@@ -64,7 +84,7 @@ const data = [
         }
     },
     {
-        text:"Created Android App, about OOPS Concepts",
+        text:"Created Android App, about OOPS Concepts, Ranked in Top #5",
         date:"Feb 2020",
         category : {
             tag:"Android App",
@@ -124,7 +144,7 @@ const data = [
         }
     },
     {
-        text: "Programming Started",
+        text: "Developing Started",
         date: "March 2019",
         category: {
             tag: "blog",

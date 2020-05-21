@@ -9,7 +9,7 @@ export default class Portfolio extends Component {
             <div className="port-intro" id="port-intro">
                 <div>
                     <h2>Journey so far</h2>
-                    <p>Below you can see my projects timeline, Things I have created so far</p>
+                    <p>Below you can see my projects & Certifications timeline, Things I have created so far</p>
                 </div>
             </div>
             <section id="portfolio">
