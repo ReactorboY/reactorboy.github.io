@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './timeline.css'
 import data from './data'
 
 export default class Portfolio extends Component {

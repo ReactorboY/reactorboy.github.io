@@ -4,6 +4,7 @@ import Nav from './Common/Nav'
 import About from './Common/About'
 import Portfolio from './Common/Portfolio'
 import Footer from './Common/Footer'
+import Organicpy from './Common/Organicpy'
 
 class Home extends Component {
     render() {
@@ -15,6 +16,7 @@ class Home extends Component {
                         subtitle="I am passionate about building excellent software that improves the lives of those around me." 
                         skills={['firebase','react','android','api', 'nextjs','gcp','mongodb','node']} 
                 />
+                <Organicpy/>
                 <Portfolio />
                 <Footer />
             </React.Fragment>
