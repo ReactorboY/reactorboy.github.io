@@ -1,5 +1,16 @@
 const data = [
     {
+        text: "Achieve 3 Star Problem Solving level",
+        date: "July 2020",
+        category: {
+            tag: "Hackerrank",
+            color: "#FF4500"
+        },
+        link: {
+            url: "https://www.hackerrank.com/reactorboy",
+            text: "Hackerrank Profile"
+        }
+    },{
         text: "Android Skill Test: Achieved Efficient and Clean level",
         date: "June 2020",
         category: {
@@ -12,6 +23,10 @@ const data = [
         category: {
             tag: "Hackerrank",
             color: "#FF4500"
+        },
+        link: {
+            url: "https://www.hackerrank.com/reactorboy",
+            text: "Hackerrank Profile"
         }
     },{
         text: "Hosted Wordpress blog using Google Cloud SQL, Virtual instance as a implementation project of Google Cloud, used IAM policy, and monitor resource for 1 month",
