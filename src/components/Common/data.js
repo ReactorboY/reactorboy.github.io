@@ -1,5 +1,19 @@
 const data = [
     {
+        text: "Android Skill Test: Achieved Efficient and Clean level",
+        date: "June 2020",
+        category: {
+            tag: "Plural Sight",
+            color: "#014564"
+        }
+    },{
+        text: "Problem Solving Certificate",
+        date: "June 2020",
+        category: {
+            tag: "Hackerrank",
+            color: "#FF4500"
+        }
+    },{
         text: "Hosted Wordpress blog using Google Cloud SQL, Virtual instance as a implementation project of Google Cloud, used IAM policy, and monitor resource for 1 month",
         date: "May 2020",
         category: {
