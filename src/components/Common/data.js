@@ -1,5 +1,27 @@
 const data = [
     {
+        text: "Authentication Microservice Using NodeJs, ExpressJs, Redis, JWT, & MongoDB",
+        date: "July 2022",
+        category: {
+            tag: "MICROSERVICE",
+            color: "#018f69"
+        },
+        // link: {
+        //     url: "",
+        //     text: ""
+        // }
+    }, {
+        text: "Blog in Svelte, latest JavaScript front-end framework",
+        date: "June 2022",
+        category: {
+            tag: "BLOG",
+            color: "#014564"
+        },
+        // link: {
+        //     url: "https://www.hackerrank.com/reactorboy",
+        //     text: "Hackerrank Profile"
+        // }
+    }, {
         text: "Achieve 3 Star Problem Solving level",
         date: "July 2020",
         category: {
