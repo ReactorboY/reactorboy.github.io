@@ -20,7 +20,7 @@ class Header extends Component {
             <div className="waveWrapperInner bgBottom">
                 <div className="wave waveBottom" style={{backgroundImage:"url('http://front-end-noobs.com/jecko/img/wave-bot.png')"}}></div>
             </div>
-            <div className="overlay"></div> */}
+            <div className="overlay"></div>
         </header>
         )
     }
