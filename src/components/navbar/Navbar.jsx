@@ -1,20 +1,26 @@
-import React from 'react'
-import { BsFillCloudMoonFill } from 'react-icons/bs'
+import './navbar.scss'
+import { motion } from 'framer-motion'
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
-    <nav className='p-5 flex justify-between items-center'>
-      <h1 className='text-4xl text-white'>Reactorboy</h1>
-      <ul className='flex items-center'>
-        <li>
-          <BsFillCloudMoonFill />
-        </li>
-        <li className='ml-5 bg-gradient-to-r from-teal-500 to-blue-500 py-2 px-5 rounded-lg'>
-          <a href='#'>Resume</a>
-        </li>
-      </ul>
-    </nav>
+    <div className='navbar'>
+      {/* Sidebar */}
+      <div className='wrapper'>
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}>
+          Hussain
+        </motion.span>
+        <div className='social'>
+          <a href='#'>
+            <img src='/instagram.png' alt='' />
+          </a>
+          <a href='#'>
+            <img src='/youtube.png' alt='' />
+          </a>
+        </div>
+      </div>
+    </div>
   )
 }
-
-export default Navbar
